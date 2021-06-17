@@ -33,7 +33,6 @@ function onDeviceReady()
     x = new xcommon();
     x = Object.freeze(x);
 
-    
     sidemenu = new xsideMenu();
     spa = new xspa(sidemenu);
 }
