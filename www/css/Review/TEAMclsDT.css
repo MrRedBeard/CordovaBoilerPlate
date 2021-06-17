@@ -1,0 +1,128 @@
+﻿dt-table {
+    margin-bottom: 0 !important;
+}
+
+.dt-table-body td, .dt-table-body th
+{
+    border: solid 1px #AAA !important;
+}
+
+
+.table-legend {
+    background-color: lightblue;
+    width: 30%;
+    margin: 20px auto;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.dt-table-body:-webkit-full-screen {
+    background-color: white;
+}
+
+.table-legend-header {
+    margin-top: 10px;
+    color: white;
+}
+
+.table-legend hr {
+    width: 85%;
+}
+
+.table-legend-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-data {
+    margin-left: 15px;
+}
+
+.table-data-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.table-search {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    text-indent: 10px;
+    padding: 5px 0;
+}
+
+.dt-table tr:hover {
+    background-color: #eeeeee;
+}
+
+.dt-header, .dt-footer {
+    background-color: #eeeeee;
+}
+
+.dt-search {
+    margin: 0 0 5px 0;
+}
+
+.dt-icon {
+    float: right;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+ .dt-header-text, .dt-footer-text {
+    float: left;
+}
+.dt-header-icon, .dt-footer-icon {
+    float: right;
+}
+
+.dt-left-header {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.dt-right-header {
+    color: #777777;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.dt-mid {
+    align-items: center;
+    justify-content: center;
+}
+
+.dt-header-item {
+    flex-grow: 1;
+    display: flex;
+}
+
+.dt-table-header {
+    width: 100%;
+    display: flex;
+}
+
+.dt-table-body {
+    max-width: 100%;
+    overflow: auto;
+}
+
+
+/* Mobile App Specific */
+.dt-left-header
+{
+    max-width: 9%;
+}
+.dt-mid
+{
+    max-width: 57%;
+}
+.dt-right-header
+{
+    max-width: 50%;
+}
+.dt-search 
+{
+    margin-right: 10px;
+}

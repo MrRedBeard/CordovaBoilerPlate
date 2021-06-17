@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="msapplication-TileColor" content="#FFF">
+	<meta name="theme-color" content="#7952b3">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover">
+	<meta name="description" content="">
+    <meta name="author" content="">
+	<base href=".">
+	<title>Mobile App Template</title>
+	
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrapGap.css" rel="stylesheet">
+	
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" sizes="180x180">
+	<link rel="icon" href="./img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="./img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+	<link rel="manifest" href="./img/favicons/manifest.json">
+	<link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#7952b3">
+	<link rel="icon" href="./img/favicons/favicon.ico">	
+
+	<!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+	<link href="css/sidebar.css" rel="stylesheet">
+
+	<link href="css/theme.css" rel="stylesheet">
+
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/bootstrapIcons.css">
+	<link rel="stylesheet" href="css/glyphicons.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/weatherIcons.css">
+
+
+	
+
+</head>
+<body class="d-flex flex-column h-100">
+
+	<!--Sidebar-->
+	<!--class="col-sm-1 collapse sidebar bg-dark text-light" id="sidebar"-->
+	<nav class="collapse col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-xs-3 sidebar sidebar-static bg-dark text-light" id="sidebar">
+		<div style="text-align: right; margin-right: 1em;">
+			<i class="menu-close bi-list" style="font-size: 2rem;"></i>
+		</div>
+
+		<h4 class="text-center">Navigation</h4>
+
+		<ul class="navbar-nav text-light text-end">
+			<li class="nav-item">
+				<a class="nav-link" href="#home"><span class='flaticon flaticon-home'></span> Home </a>
+				<dynamicSideMenu></dynamicSideMenu>
+			</li>
+		</ul>
+	</nav>
+
+	<!--Top Nav-->
+	<header>
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#home">Home</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				</li>
+			</ul>
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+			</div>
+		</div>
+		</nav>
+	</header>
+
+
+	<!-- Begin page content -->
+	<main class="flex-shrink-0">
+	  <div class="container">
+		<div class="touchVals"></div>
+		<div class="app">
+			<script></script>
+		</div>
+		
+	  </div>
+	</main>
+	
+	<!--Sticky Footer-->
+	<footer class="footer mt-auto py-3 bg-light">
+	  <div class="container">
+		<span class="text-muted">Place sticky footer content here.</span>
+	  </div>
+	</footer>
+	
+	<script src="cordova.js"></script>
+	<script src="js/index.js"></script>	
+	
+	<script src="js/bootstrap-native.js"></script>
+
+	<script src="js/mobile/xajax.js"></script>
+	<script src="js/mobile/xcommon.js"></script>
+
+	<script src="js/mobile/xtouch.js"></script>
+	<script src="js/mobile/xspa.js"></script>
+	<script src="js/mobile/xsidemenu.js"></script>
+	<script src="js/mobile/xdynamicmenu.js"></script>
+
+	
+
+</body>
+</html>
+	
+
+	
+	
+	

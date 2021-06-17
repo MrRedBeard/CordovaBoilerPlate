@@ -1,0 +1,30 @@
+@font-face 
+{
+    font-family: 'glyphicons-halflings-regular';
+    src: url('/Content/fonts/glyphicons-halflings-regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'fontawesome-webfont';
+    src: url('/Content/fonts/fontawesome-webfont.woff') format('woff');
+}
+
+.text-underline
+{
+    text-decoration: underline;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.liNoStyle /*List Item style - no style but still indented*/
+{
+    list-style: none;
+}
+
+
+
+
